@@ -215,9 +215,9 @@ def hero():
 <g class="r" style="animation-delay:.05s">{c1}{c2}</g>
 <text x="{x}" y="{h - P - 152}" class="d r" font-size="76" letter-spacing="-2" fill="url(#sh)" style="animation-delay:.2s;fill:url(#sh)">ARTHUR</text>
 <text x="{x}" y="{h - P - 76}" class="d r" font-size="76" letter-spacing="-2" fill="url(#sh)" style="animation-delay:.3s;fill:url(#sh)">BABKIN</text>
-<text x="{P}" y="{h - P - 28}" class="d r" font-size="21" letter-spacing="-.5" fill="{LIME}" style="animation-delay:.45s">I train language models</text>
+<text x="{P}" y="{h - P - 28}" class="d r" font-size="21" letter-spacing="-.5" fill="{LIME}" style="animation-delay:.45s">I research, train language models</text>
 <text x="{P}" y="{h - P}" class="d r" font-size="21" letter-spacing="-.5" fill="{LIME}" style="animation-delay:.55s">and build products on them</text>"""
-    return svg(w, h, style, body, "Arthur Babkin, a portrait drawn in characters. I train language models and build "
+    return svg(w, h, style, body, "Arthur Babkin, a portrait drawn in characters. I research, train language models and build "
                "products on them. LLM research and AI products. GMT+3, Innopolis — Kazan.")
 
 
@@ -484,7 +484,7 @@ def img(stem, alt, outer, href=None):
 
 def readme(btn_widths):
     rows = [
-        [img("hero", "Arthur Babkin — I train language models and build products on them", ROW, f"{SITE}/en")],
+        [img("hero", "Arthur Babkin — I research, train language models and build products on them", ROW, f"{SITE}/en")],
         [img(s, label, bw + 2 * GX, href) for (s, label, _, href), bw in zip(BUTTONS, btn_widths)],
         [img(s, alt, TILE_W + 2 * GX, href) for s, href, alt in TILES],
         [img("heatmap", "GitHub contributions over the last year", ROW)],

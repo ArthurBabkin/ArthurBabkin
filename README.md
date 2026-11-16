@@ -1,5 +1,5 @@
 <p
-><a href="https://arthurbabkin.com/en"><img src="cards/hero.svg" width="100%" align="top" alt="Arthur Babkin — I train language models and build products on them"></a><br
+><a href="https://arthurbabkin.com/en"><img src="cards/hero.svg" width="100%" align="top" alt="Arthur Babkin — I research, train language models and build products on them"></a><br
 ><a href="https://arthurbabkin.com/cv-arthur-babkin-en.pdf"><img src="cards/btn-cv.svg" width="25.2%" align="top" alt="Download CV"></a
 ><a href="https://t.me/theother_archeee"><img src="cards/btn-write.svg" width="23.315%" align="top" alt="Write to me"></a
 ><a href="https://arthurbabkin.com/en"><img src="cards/btn-site.svg" width="15.339%" align="top" alt="Website"></a
