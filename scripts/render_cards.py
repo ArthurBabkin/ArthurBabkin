@@ -7,7 +7,7 @@ Fetches the contribution calendar into data/contributions.json (or reuses the
 cached one when there is no token), writes every card into cards/ and rewrites
 README.md. STATIC=1 draws each card at its final frame, for a screenshot.
 
-The palette and type are arthur-babkin.vercel.app's: ultramarine, lime, ink on
+The palette and type are arthurbabkin.com's: ultramarine, lime, ink on
 pale paper; Unbounded for figures and headings, Manrope for text. Every card is
 a solid block, so one version reads on GitHub's light and dark themes alike.
 
@@ -447,7 +447,7 @@ def repo(name, desc, tag, delay):
 
 
 # ── the page ────────────────────────────────────────────────────────────────
-SITE = "https://arthur-babkin.vercel.app"
+SITE = "https://arthurbabkin.com"
 BUTTONS = [  # stem, label, kind, href
     ("btn-cv", "Download CV", "lime", f"{SITE}/cv-arthur-babkin-en.pdf"),
     ("btn-write", "Write to me", "ink", "https://t.me/theother_archeee"),
